@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+LICENZA - [![License](https://img.shields.io/github/license/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/blob/master/LICENSE)
+ISSUES - [![GitHub issues](https://img.shields.io/github/issues/italia/bootstrap-italia.svg)](https://github.com/italia/bootstrap-italia/issues)
+SLACK - [![Join the #design channel](https://img.shields.io/badge/Slack%20channel-%23design-blue.svg)](https://developersitalia.slack.com/messages/C7VPAUVB3/)
+SLACK - [![Get invited](https://slack.developers.italia.it/badge.svg)](https://slack.developers.italia.it/)
+FORUM - [![18app on forum.italia.it](https://img.shields.io/badge/Forum-18app-blue.svg)](https://forum.italia.it/c/18app-carta-docente)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-end Project
+## Start2Travel
+> ### Restaurants, Hotels & Attractions around you.
+* Search on the map 
 
-## Available Scripts
+### About The Project
 
-In the project directory, you can run:
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### `npm start`
+The site we're going to create allows us to search restaurants, hotels and attractions around you, using an external API that provides us with necessary information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Requirements:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Search bar that allows you to search restaurants, hotels and attractions.
+- Geolocation that provides all information in real time.
+- Organized and understandable app structure.
+- Responsive design.
 
-### `npm test`
+### Built with
+* [React](https://it.reactjs.org/)
+* [React-google-maps/api](https://www.npmjs.com/package/@react-google-maps/api)
+* [Material-ui](https://mui.com/)
+* [Axios](https://www.npmjs.com/package/axios)
+* [Firebase](https://firebase.google.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Getting Started
 
-### `npm run build`
+1. Clone the repo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/giorgione69/Start2Travel.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the missing dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```npm
+npm install
+```
 
-### `npm run eject`
+3. Launch the web application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```npm
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- USAGE -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can access the web application at
 
-## Learn More
+```
+https://start2travel-1701f.web.app/
+```
+[live demo](https://start2travel-1701f.web.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Giorgio Polese - polesegiorgio69@gmail.com
